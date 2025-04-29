@@ -4,6 +4,7 @@ metadata:
   name: alpha-queue
 spec:
   forProvider:
+    region: eu-west-1
     name: alpha-queue
   providerConfigRef:
     name: default
