@@ -1,4 +1,9 @@
-apiVersion: sqs.aws.crossplane.io/v1beta1
+apiVersion: sqs.aws.upbound.io/v1beta1
 kind: Queue
 metadata:
   name: alpha-queue
+spec:
+  forProvider:
+    name: alpha-queue
+  providerConfigRef:
+    name: default
