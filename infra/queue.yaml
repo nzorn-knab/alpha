@@ -1,2 +1,4 @@
 apiVersion: sqs.aws.crossplane.io/v1beta1
 kind: Queue
+metadata:
+  name: alpha-queue
