@@ -22,3 +22,10 @@ metadata:
   name: go-alpha-queue
 spec:
   name: go-alpha-queue
+---
+apiVersion: platform.knab-internal.com/v1alpha1
+kind: KclQueue
+metadata:
+  name: kcl-alpha-queue
+spec:
+  name: kcl-alpha-queue
