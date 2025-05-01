@@ -1,10 +1,16 @@
-apiVersion: sqs.aws.upbound.io/v1beta1
-kind: Queue
+# apiVersion: sqs.aws.upbound.io/v1beta1
+# kind: Queue
+# metadata:
+#   name: alpha-queue
+# spec:
+#   forProvider:
+#     region: eu-west-1
+#     name: alpha-queue
+#   providerConfigRef:
+#     name: default
+apiVersion: platform.knab-internal.com/v1alpha1
+kind: StandardQueue
 metadata:
-  name: alpha-queue
+  name: standard-alpha-queue
 spec:
-  forProvider:
-    region: eu-west-1
-    name: alpha-queue
-  providerConfigRef:
-    name: default
+  name: standard-alpha-queue
