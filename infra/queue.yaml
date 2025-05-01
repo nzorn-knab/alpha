@@ -26,6 +26,6 @@ spec:
 apiVersion: platform.knab-internal.com/v1alpha1
 kind: KclQueue
 metadata:
-  name: kcl-alpha2-queue
+  name: kcl-alpha-queue
 spec:
-  name: kcl-alpha2-queue
+  name: kcl-alpha-queue
