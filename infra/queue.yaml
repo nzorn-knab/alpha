@@ -9,7 +9,7 @@
 #   providerConfigRef:
 #     name: default
 apiVersion: platform.knab-internal.com/v1alpha1
-kind: Legacy
+kind: LegacyQueue
 metadata:
   name: legacy-alpha-queue
 spec:
