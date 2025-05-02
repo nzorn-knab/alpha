@@ -23,12 +23,12 @@
 # spec:
 #   name: go-alpha-queue
 # ---
-apiVersion: platform.knab-internal.com/v1alpha1
-kind: GoQueue
-metadata:
-  name: go-filesystem-alpha-queue
-spec:
-  name: go-filesystem-alpha-queue
+# apiVersion: platform.knab-internal.com/v1alpha1
+# kind: GoQueue
+# metadata:
+#   name: go-filesystem-alpha-queue
+# spec:
+#   name: go-filesystem-alpha-queue
 # ---
 # apiVersion: platform.knab-internal.com/v1alpha1
 # kind: KclQueue
