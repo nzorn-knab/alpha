@@ -1,38 +1,38 @@
-apiVersion: sqs.aws.upbound.io/v1beta1
-kind: Queue
-metadata:
-  name: standard-alpha-queue
-spec:
-  forProvider:
-    region: eu-west-1
-    name: standard-alpha-queue
-  providerConfigRef:
-    name: default
----
-apiVersion: platform.knab-internal.com/v1alpha1
-kind: LegacyQueue
-metadata:
-  name: legacy-alpha-queue
-spec:
-  name: legacy-alpha-queue
----
-apiVersion: platform.knab-internal.com/v1alpha1
-kind: GoQueue
-metadata:
-  name: go-alpha-queue
-spec:
-  name: go-alpha-queue
----
+# apiVersion: sqs.aws.upbound.io/v1beta1
+# kind: Queue
+# metadata:
+#   name: standard-alpha-queue
+# spec:
+#   forProvider:
+#     region: eu-west-1
+#     name: standard-alpha-queue
+#   providerConfigRef:
+#     name: default
+# ---
+# apiVersion: platform.knab-internal.com/v1alpha1
+# kind: LegacyQueue
+# metadata:
+#   name: legacy-alpha-queue
+# spec:
+#   name: legacy-alpha-queue
+# ---
+# apiVersion: platform.knab-internal.com/v1alpha1
+# kind: GoQueue
+# metadata:
+#   name: go-alpha-queue
+# spec:
+#   name: go-alpha-queue
+# ---
 apiVersion: platform.knab-internal.com/v1alpha1
 kind: GoQueue
 metadata:
   name: go-filesystem-alpha-queue
 spec:
   name: go-filesystem-alpha-queue
----
-apiVersion: platform.knab-internal.com/v1alpha1
-kind: KclQueue
-metadata:
-  name: kcl-alpha-queue
-spec:
-  name: kcl-alpha-queue
+# ---
+# apiVersion: platform.knab-internal.com/v1alpha1
+# kind: KclQueue
+# metadata:
+#   name: kcl-alpha-queue
+# spec:
+#   name: kcl-alpha-queue
